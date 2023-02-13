@@ -1,0 +1,30 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/index.js",
+    "compile": "babel src --presets @babel/react --out-dir public",
+    "watch": "babel src --presets @babel/react --out-dir public --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhadreshkumarghevariya/EmployeeManagementSystem.git"
+  },
+  "author": "Bhadreshkumar Ghevariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhadreshkumarghevariya/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/bhadreshkumarghevariya/EmployeeManagementSystem#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-react": "^7.18.6",
+    "nodemon": "^2.0.20"
+  }
+}
