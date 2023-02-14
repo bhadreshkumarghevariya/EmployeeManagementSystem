@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/bhadreshkumarghevariya/EmployeeManagementSystem#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "apollo-server-express": "^3.11.1",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
